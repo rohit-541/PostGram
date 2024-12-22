@@ -1,0 +1,30 @@
+{
+  "name": "postgram",
+  "version": "1.0.0",
+  "description": "A social media backend made on restfull api ",
+  "main": "server,js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit-541/PostGram.git"
+  },
+  "author": "Rohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit-541/PostGram/issues"
+  },
+  "homepage": "https://github.com/rohit-541/PostGram#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.9.2",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.17.0"
+  }
+}
