@@ -22,3 +22,4 @@ export const validateUserDetails = async (req,res,next)=>{
 
     next();
 }
+
