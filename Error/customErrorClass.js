@@ -7,6 +7,7 @@ export class customError extends Error{
 }
 
 //Application level error handler
-export function AppLevelError(err,req,res,next){
-    
+export function AppLevelError(error,req,res,next){
+    console.log(error);
+    res.status(500).send(error);
 }

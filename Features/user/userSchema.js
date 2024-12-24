@@ -24,12 +24,11 @@ export const userSchema = mongoose.Schema({
     },
     image:{
         type:mongoose.Types.ObjectId,
-        ref:'UserProfile'
+        ref:'ProfileImage'
     },
-    device:[    //To store device information so we can use logout feature 
+    devices:[
         {
-            type:mongoose.Types.ObjectId,
-            ref:'Device'
+            type:String
         }
     ]
 });
