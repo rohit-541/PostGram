@@ -30,5 +30,8 @@ export const userSchema = mongoose.Schema({
         {
             type:String
         }
-    ]
+    ],
+    otp:{
+        type:Object,
+    }
 });

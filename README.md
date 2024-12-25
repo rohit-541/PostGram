@@ -13,12 +13,12 @@ A social Media application(Backend Part);
 
 
 1.User
-    a. Register User.
-    b. login user
-    c. logout user
-    d. logout from all device
-    e. Profile update System
-    f. Password reset feature
-    g. Profile photo uploads
-    h. Error handeling and logging
+    a. Register User. --done
+    b. login user   --done
+    c. logout user  --done 
+    d. logout from all device   --done
+    e. Profile update System --done
+    f. Password reset feature   --done
+    g. Profile photo uploads  --done
+    h. Error handeling and logging  --done
 
