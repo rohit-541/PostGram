@@ -22,3 +22,9 @@ A social Media application(Backend Part);
     g. Profile photo uploads  --done
     h. Error handeling and logging  --done
 
+2. Post 
+    a. Create
+    b. Delete
+    c. Update
+    d. comment
+    e. Like

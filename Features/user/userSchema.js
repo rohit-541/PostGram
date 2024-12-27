@@ -33,5 +33,24 @@ export const userSchema = mongoose.Schema({
     ],
     otp:{
         type:Object,
-    }
+    },
+    sentRequest:[
+        {
+            type:mongoose.Types.ObjectId,
+            ref:'User'
+        }
+    ],
+    Friends:[
+        {
+            type:mongoose.Types.ObjectId,
+            ref:'User'
+        }
+    ],
+    requests:[
+        {
+            type:mongoose.Types.ObjectId,
+            ref:'User'
+        }
+    ]
+
 });
